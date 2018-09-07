@@ -13,7 +13,6 @@ export default class EvenAndOdd extends Component {
 
     handleChange(val){
         this.setState({userInput:val});
-        
     }
     
     assignEvenAndOdds(userInput) {
